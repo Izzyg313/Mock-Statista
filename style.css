@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(218, 218, 218, 0.374);
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background-color: #001327;
+    width: 100%;
+}
+#logo{
+    width: 45%;
+    height: 80px;
+    margin: 0px auto;
+    padding: 20px;
+}
+.logo{
+    width: 170px;
+}
+#main{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+#whole{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.graph{
+    width: 65%;
+}
+#download-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 10px 15px;
+    align-items: flex-start;
+    background-color: white;
+}
+#download-buttons{
+    display: flex;
+    padding: 5px;
+    border: 1px solid rgb(161, 161, 161, 0.363)0;
+    border-radius: 5px;
+    background-color: rgba(161, 161, 161, 0.363);
+}
+.icon{
+    width: 12px;
+    height: 16px;
+    margin: 0px 5px 0px 0px;
+}
+.button{
+    display: flex;
+    padding: 0px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    margin: 0px 10px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.type{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    width: 55px;
+    margin: 0px 0px 0px 5px;
+    font-size: 12px;
+}
+.plus-box{
+    background-color: rgb(2, 2, 54);
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
